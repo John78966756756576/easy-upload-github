@@ -1,5 +1,5 @@
 
-import { GitHub } from "lucide-react";
+import { Github } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 
@@ -14,7 +14,7 @@ const Index = () => {
         
         <Link to="/github-import">
           <Button size="lg" className="gap-2">
-            <GitHub className="h-5 w-5" />
+            <Github className="h-5 w-5" />
             Start Importing Files
           </Button>
         </Link>

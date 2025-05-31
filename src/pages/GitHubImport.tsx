@@ -1,4 +1,3 @@
-
 import React, { useState } from "react";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
@@ -6,7 +5,7 @@ import { parseGitHubUrl, fetchRepoContents } from "@/utils/githubService";
 import GitHubFileItem from "@/components/GitHubFileItem";
 import FileViewer from "@/components/FileViewer";
 import { toast } from "@/components/ui/use-toast";
-import { GitHub } from "lucide-react";
+import { Github } from "lucide-react";
 
 const GitHubImport = () => {
   const [url, setUrl] = useState<string>("");
@@ -117,7 +116,7 @@ const GitHubImport = () => {
     <div className="container mx-auto py-8 px-4">
       <div className="flex items-center justify-center mb-8">
         <div className="flex gap-2 items-center">
-          <GitHub className="h-6 w-6" />
+          <Github className="h-6 w-6" />
           <h1 className="text-3xl font-bold">GitHub Import</h1>
         </div>
       </div>
